@@ -1,0 +1,150 @@
+/* .portfolio {
+  margin: 94px 0;
+  border: 0;
+} */
+/* ===============filtr========== */
+.fil {
+  width: 611px;
+  height: 54px;
+  border: 0;
+  margin: 0 auto 34px;
+}
+.fil-list {
+  display: flex;
+  border: 0;
+
+  /* height: 54px; */
+  justify-content: space-between;
+}
+
+.fil-all {
+  min-width: 73px;
+}
+
+.fil-web {
+  min-width: 128px;
+}
+
+.fil-applic {
+  min-width: 145px;
+}
+
+.fil-design {
+  min-width: 103px;
+}
+.fil-market {
+  min-width: 130px;
+}
+.fil-btn {
+  height: 38px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
+
+  /* height: 38; */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fil-list :hover,
+.fil-list :focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* ===============filtr end========== */
+/* ===============project================ */
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.proj-list > .proj-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 -30px);
+  border: 0;
+  display: block;
+  /* box-sizing: border-box; */
+}
+.proj-text {
+  border: 01px solid #eeeeee;
+  padding: 20px 24px;
+}
+.work-text {
+  border: 0;
+  margin-top: 4px;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.work-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.proj-link {
+  display: inline-block;
+}
+.proj-link:hover,
+.proj-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+/* =======оверлей карточек======= */
+.overlay {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  /* */
+  /* outline: 1px solid; */
+}
+
+.overlay-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  padding: 63px 24px;
+
+  background: rgba(33, 150, 243, 0.9);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* outline: 1px solid; */
+}
+
+.proj-link:hover .overlay-txt,
+.proj-link:focus .overlay-txt {
+  transform: translate(0%);
+}
