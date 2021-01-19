@@ -11,6 +11,9 @@
   --main-font: 'Roboto', sans-serif;
 
   --secondary-font: 'Raleway', 'Oleo Script', sans-serif;
+
+  --time-fn: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 /* ============ body ========== */
 body {
@@ -133,7 +136,7 @@ img {
   border: 0px;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms var(--time-fn);
 }
 .address-list-item:not(:last-child) {
   margin-right: 50px;
@@ -169,7 +172,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms var(--time-fn);
 }
 
 .nav-list .link:hover,
@@ -209,7 +212,7 @@ img {
   display: block;
   /* padding: ; */
   color: currentColor;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms var(--time-fn);
 }
 
 .nav-link::after {
@@ -228,7 +231,7 @@ img {
   /* display: none; */
   /* opacity: 0; */
   transform: scale(0, 0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms var(--time-fn);
 }
 
 .nav-link:hover::after,
@@ -249,7 +252,7 @@ img {
   color: var(--primary-text-color); /*цвет основного текста #757575*/
   text-decoration: none;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms var(--time-fn);
 }
 
 .icon-mail {
@@ -258,7 +261,7 @@ img {
   height: 12px;
   fill: #757575;
   margin-right: 10px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms var(--time-fn);
 }
 
 .link-tel {
@@ -271,7 +274,7 @@ img {
   color: var(--primary-text-color); /*цвет основного текста #757575*/
   text-decoration: none;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms var(--time-fn);
 }
 
 .icon-tel {
@@ -280,7 +283,7 @@ img {
   height: 16px;
   margin-right: 10px;
   fill: #757575;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms var(--time-fn);
 }
 .address-list .link-mail:hover,
 .address-list .link-mail:focus {
@@ -513,7 +516,7 @@ img {
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms var(--time-fn);
 }
 /* ========== подпишись ========= */
 .footer-box {
