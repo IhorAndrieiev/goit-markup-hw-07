@@ -1,0 +1,23 @@
+/* =========== section features=========== */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.features-list {
+  display: flex;
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
+.features-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  /* width: 270px; */
+  /* outline: 1px solid; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

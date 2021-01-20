@@ -1,0 +1,44 @@
+/* ===============filtr========== */
+.fil {
+  width: 611px;
+  height: 54px;
+  border: 0;
+  margin: 0 auto 34px;
+}
+.fil-list {
+  display: flex;
+  border: 0;
+
+  /* height: 54px; */
+  justify-content: space-between;
+}
+
+.fil-all {
+  min-width: 73px;
+}
+
+.fil-web {
+  min-width: 128px;
+}
+
+.fil-applic {
+  min-width: 145px;
+}
+
+.fil-design {
+  min-width: 103px;
+}
+.fil-market {
+  min-width: 130px;
+}
+
+.fil-list :hover,
+.fil-list :focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* ===============filtr end========== */

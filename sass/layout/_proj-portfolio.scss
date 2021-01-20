@@ -1,0 +1,38 @@
+/* ===============project================ */
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.proj-list > .proj-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 -30px);
+  border: 0;
+  display: block;
+  /* box-sizing: border-box; */
+}
+.proj-text {
+  border: 01px solid #eeeeee;
+  padding: 20px 24px;
+}
+.work-text {
+  border: 0;
+  margin-top: 4px;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.work-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}

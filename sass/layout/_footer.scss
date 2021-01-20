@@ -1,0 +1,210 @@
+.footer {
+  background-color: #2f303a;
+  /* height: 252px;
+  width: auto;*/
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* outline: 3px solid; */
+  display: block;
+}
+
+.footcontainer {
+  /* display: block; */
+  align-items: baseline;
+  /* margin-top: 0px; */
+  /* height: 252px; */
+  /* align-items: center; */
+  display: flex;
+  /* outline: 3px solid;  */
+}
+
+/* .footcontainer {
+  outline: 3px solid;
+} */
+
+.footer-logo {
+  margin-bottom: 20px;
+  display: block;
+  width: 145px;
+  border: 0px;
+  height: 31px;
+
+  /* outline: 3px solid; */
+  /* padding-top: 60px; */
+
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.footer-address-list {
+  min-height: 81px;
+}
+.footer-address-list-item:nth-last-child(2) {
+  /* background-color: orange; */
+  margin: 9px 0;
+  padding: 0;
+  border: 0;
+
+  /* outline: 3px solid; */
+}
+.link-address {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-white-color);
+  width: 231px;
+  height: 21px;
+}
+
+.foot-link-mail {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+}
+.foot-link-tel {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+}
+
+.footlogaddress {
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
+  /* height: 252px; */
+  display: inline-block;
+  /* outline: 1px solid; */
+}
+
+.footsocial {
+  width: 206px;
+  min-height: 80px;
+  display: inline-block;
+  margin-left: 70px;
+  /* margin-top: 72px; */
+  /* margin-bottom: 100px; */
+  /* padding-bottom: 100px; */
+  /* outline: 1px solid; */
+}
+
+.footsocial-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+  /* outline: 1px solid; */
+}
+
+.footsocial-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-white-color);
+}
+
+.footsocial-list {
+  display: flex;
+
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
+
+.footsocial-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: 250ms var(--time-fn);
+}
+/* ========== подпишись ========= */
+.footer-box {
+  display: block;
+  margin-left: 93px;
+}
+.footer-form {
+  /* margin-bottom: 12px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-field {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  position: relative;
+}
+.footer-form-paragraph {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+}
+.input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  padding: 15px 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navigation-list-link.current {
+  color: var(--accent-color);
+}
+
+.footsocial-link:hover,
+.footsocial-link:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+}
