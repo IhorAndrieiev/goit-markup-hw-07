@@ -33,9 +33,10 @@
   cursor: pointer;
   /* margin-top: 30px; */
   transition: background-color 250ms var(--time-fn);
-}
-.btn-modal-form:hover,
-.btn-modal-form:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+  }
 }

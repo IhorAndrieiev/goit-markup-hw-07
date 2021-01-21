@@ -1,23 +1,23 @@
 /* ============ <!--Примеры работ--> ============ */
 .work {
   padding-bottom: 94px;
+
+  &-list {
+    display: flex;
+    margin-top: 50px;
+    /* margin-bottom: 94px; */
+    .work-img {
+      position: relative;
+    }
+
+    .work-img:not(:last-child) {
+      margin-right: 30px;
+      padding: 0;
+      border: 0;
+    }
+  }
 }
-/* .sect {
-  margin-bottom: 94px;
-} */
-.work-list {
-  display: flex;
-  margin-top: 50px;
-  /* margin-bottom: 94px; */
-}
-.work-list .work-img:not(:last-child) {
-  margin-right: 30px;
-  padding: 0;
-  border: 0;
-}
-.work-list .work-img {
-  position: relative;
-}
+
 .workart {
   position: relative;
   left: 0;

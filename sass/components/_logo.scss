@@ -1,8 +1,9 @@
 .logo {
   display: block;
   width: 145px;
-  padding-top: 24px;
   border: 0px;
+
+  padding-top: 24px;
   padding-bottom: 25px;
 
   font-family: var(--secondary-font);
@@ -13,8 +14,30 @@
   letter-spacing: 0.03em;
 
   color: #000000;
+
+  &-web {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+  }
 }
-.logo-web {
+.footer-logo {
+  display: block;
+  width: 145px;
+  border: 0px;
+
+  height: 31px;
+
+  margin-bottom: 20px;
+
+  /* outline: 3px solid; */
+  /* padding-top: 60px; */
+
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -22,5 +45,5 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }

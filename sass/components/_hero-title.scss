@@ -1,7 +1,5 @@
 .hero-title {
   /* margin-bottom: 94px; */
-  color: #ffffff;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -11,4 +9,6 @@
   text-transform: uppercase;
   width: 696px;
   margin: auto;
+
+  color: var(--primary-white-color);
 }

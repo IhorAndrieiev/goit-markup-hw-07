@@ -1,11 +1,19 @@
 /* ================ Heder ==================== */
-.page-header .container {
-  display: flex;
-  align-items: center;
-}
+// вложенность
 .page-header {
   border-bottom: 1px solid #ececec;
-}
-.page-header .logo {
-  margin-right: 93px;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 93px;
+  }
+
+  .address {
+    /* display: flex;*/
+    margin-left: auto;
+  }
 }

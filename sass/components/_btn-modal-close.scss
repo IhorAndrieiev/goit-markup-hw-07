@@ -11,8 +11,16 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: fill 250ms var(--time-fn);
+
+  &:hover .icon-close-btn,
+  &:focus .icon-close-btn {
+    fill: var(--accent-color);
+  }
 }
-.btn-modal-close:hover .icon-close-btn,
-.btn-modal-close:focus .icon-close-btn {
-  fill: var(--accent-color);
+
+.icon-close-btn {
+  width: 18px;
+  height: 18px;
+  /* transform: translateY(-5%); */
+  /* transform: translateX(-5%); */
 }

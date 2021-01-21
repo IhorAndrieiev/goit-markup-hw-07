@@ -23,10 +23,20 @@
   padding-bottom: 50px;
   /* padding-top: 94px; */
 }
+// вложенность
 .work-list-team {
   /* margin-bottom: 94px; */
   display: flex;
   justify-content: space-between;
+
+  .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    text-align: center;
+  }
 }
 .team-name {
   margin-bottom: 10px;
@@ -40,14 +50,7 @@
   padding: 0;
   border: 0;
 } */
-.work-list-team .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  text-align: center;
-}
+
 .team-position {
   margin-bottom: 16px;
   margin-left: auto;
