@@ -19,5 +19,5 @@
     //     "last 2 versions"
     // ],
     "liveSassCompile.settings.autoprefix": null,
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5503
 }

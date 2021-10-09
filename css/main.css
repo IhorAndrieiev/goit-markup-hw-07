@@ -158,7 +158,8 @@ img {
   transition: transform 250ms var(--time-fn);
 }
 
-.nav-link:hover::after, .nav-link:focus::after {
+.nav-link:hover::after,
+.nav-link:focus::after {
   /* display: block; */
   /* opacity: 1; */
   /* width: 100%; */
@@ -185,7 +186,10 @@ img {
   /* ====== полоса под навигацией ======= */
 }
 
-.nav-list .link:hover, .nav-list .link:focus, .nav-list .link:active, .nav-list .link.current {
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link:active,
+.nav-list .link.current {
   color: var(--accent-color);
   /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
@@ -251,10 +255,9 @@ img {
 }
 
 .address-list .link-mail:hover,
-.address-list .link-mail:focus, .address-list
-.link-tel:hover,
-.address-list
-.link-tel:focus {
+.address-list .link-mail:focus,
+.address-list .link-tel:hover,
+.address-list .link-tel:focus {
   color: var(--accent-color);
 }
 
@@ -331,7 +334,8 @@ img {
   transition: background-color 250ms var(--time-fn);
 }
 
-.btn-modal-form:hover, .btn-modal-form:focus {
+.btn-modal-form:hover,
+.btn-modal-form:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -460,7 +464,8 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.form-input:focus, .form-input:hover {
+.form-input:focus,
+.form-input:hover {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -508,7 +513,8 @@ img {
   transition: border-color 250ms var(--time-fn);
 }
 
-.comment:focus, .comment:hover {
+.comment:focus,
+.comment:hover {
   outline: none;
   border-color: var(--accent-color);
   /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
@@ -532,7 +538,8 @@ img {
   color: var(--primary-text-color);
   /* margin-left: 54px; */
   padding-left: 14px;
-  transition: border-color 250ms var(--time-fn), background-color 250ms var(--time-fn);
+  transition: border-color 250ms var(--time-fn),
+    background-color 250ms var(--time-fn);
 }
 
 .checkbox-accept::before {
@@ -585,19 +592,19 @@ img {
 }
 
 .icon-antenna::before {
-  background-image: url("../images/icon/antenna.svg");
+  background-image: url('../images/icon/antenna.svg');
 }
 
 .icon-clock::before {
-  background-image: url("../images/icon/clock.svg");
+  background-image: url('../images/icon/clock.svg');
 }
 
 .icon-diagram::before {
-  background-image: url("../images/icon/diagram.svg");
+  background-image: url('../images/icon/diagram.svg');
 }
 
 .icon-astronaut::before {
-  background-image: url("../images/icon/astronaut.svg");
+  background-image: url('../images/icon/astronaut.svg');
 }
 
 .section-title-about,
@@ -670,7 +677,8 @@ img {
 
 .proj-link:hover,
 .proj-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .proj-link:hover .overlay-txt,
@@ -761,7 +769,11 @@ img {
   max-width: 1600px;
   min-height: 600px;
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -910,7 +922,8 @@ img {
   width: 270px;
   min-height: 428px;
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -958,7 +971,8 @@ img {
   transition: 250ms var(--time-fn);
 }
 
-.regular .regular-list-item:hover, .regular .regular-list-item:focus {
+.regular .regular-list-item:hover,
+.regular .regular-list-item:focus {
   border-color: var(--accent-color);
   cursor: pointer;
 }
@@ -1079,6 +1093,7 @@ img {
 .footsocial-title {
   font-weight: 700;
   font-size: 14px;
+  display: inline-block;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
